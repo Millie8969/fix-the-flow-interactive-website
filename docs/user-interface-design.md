@@ -38,7 +38,9 @@ Een *User Story* volg een vaste schrijfwijze:
 
 1. Schrijf eerst wie de gebruiker is van jouw opdracht en wat de gebruiker wil bereiken, wat is de _User Goal_?
 2. Schrijf een _User Story_ van een interactief element dat je wil gaan maken: `Als <gebruiker> wil ik <functionaliteit> zodat <meerwaarde>` — bespreek eventueel met een mentor of docent of dit haalbaar is deze sprint.
-3. Maak een issue aan met de *User Story*. Hier ga je het ontwerp en uitwerking van de interactie in bijhouden.
+3. Schrijf jouw User story op het whiteboard
+4. Maak een issue aan met de *User Story*. Hier ga je het ontwerp en uitwerking van de interactie in bijhouden.
+
 
 #### Bronnen
 
