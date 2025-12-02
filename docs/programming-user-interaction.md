@@ -175,87 +175,9 @@ Als je ditzelfde in JavaScript zou willen doen, moet je elke stap uitschrijven:
 
 Zeker in het begin is dit even wennen. Wat enorm helpt bij deze nieuwe taal, is de verschillende stappen die je wilt nemen eerst uitschrijven als _comments_, zoals in het voorbeeld hierboven. Zelfs als je nog niet weet welke code je moet schrijven, kun je op deze manier wel alvast een _plan_ maken. En om hints of feedback vragen over hoe je dit probleem op kunt lossen. (Wees zorgvuldig met ChadGPT om hulp vragen, want die maakt het vaak ingewikkelder dan nodig. Ook ontbreekt er vaak context, die jij wél weet.)
 
-<details>
-<summary>Het plan van hierboven uitgewerkt</summary>
+Vergeet niet dat HTML, CSS en JS alledrie andere regels hebben, omdat het totaal verschillende talen zijn. Als je in HTML en CSS per ongeluk een tikfout maakt, negeert een browser die vaak, en gaat die gewoon door met de rest van de pagina. In JS gaat het bij een tikfout iets sneller mis. Zodra de browser een fout in JS tegenkomt, wordt de rest niet meer uitgevoerd, en zie je een fout in je Console. Controleer die Console dus regelmatig als iets niet werkt. Gebruik de Console ook voor het _debuggen_ van je code en het controleren van je aannames.
 
-```js
-// Selecteer alle p elementen, en sla die op in een variabele
-let pElementen = document.querySelectorAll('p');
-
-// Wandel langs alle p elementen
-pElementen.forEach(function(pElement) {
-    // Voor elk p element → verander de kleur naar rood
-    pElement.style.color = 'red';
-    // (Dit is overigens geen goed idee; je kunt dit beter via een
-    // classList.toggle() doen, en je styling in CSS zelf houden)
-});
-```
-    
-</details>
-
-Vergeet niet dat HTML, CSS en JS alledrie andere regels hebben, omdat het totaal verschillende talen zijn. Als je in HTML en CSS per ongeluk een tikfout maakt, negeert een browser die vaak, en gaat die gewoon door met de rest van de pagina. In JS gaat het bij een tikfout iets sneller mis. Zodra de browser een fout in JS tegenkomt, wordt de rest niet meer uitgevoerd, en zie je een fout in je Console. Controleer die dus regelmatig als iets niet werkt. Gebruik de Console ook voor het _debuggen_ van je code en het controleren van je aannames. Zie dit voorbeeld:
-
-```js
-// Deze code doet het niet, maar ik snap niet waarom niet,
-// en ik krijg geen error in de Console..
-
-// Selecteer de inhoudsopgave
-let tableOfContents = document.querySelector('ul');
-
-// Highlight de boel
-tableOfContents.classList.add('highlighted');
-```
-
-<details>
-<summary>De HTML en CSS bij dit JS voorbeeld, inclusief een 🍔-menu</summary>
-
-```html
-<h1>Welkom op mijn website</h1>
-
-<nav id="menu">
-    <h2>Hoofdmenu</h2>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/over">Over</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
-</nav>
-<a href="#menu">🍔</a>
-
-<section>
-    <h2>Inhoudsopgave</h2>
-    <ul>
-        <li><a href="#stap-1">Stap 1</a></li>
-        <li><a href="#stap-2">Stap 2</a></li>
-        <li><a href="#stap-3">Stap 3</a></li>
-    </ul>
-    ...
-</section>
-```
-
-```css
-/* Een simpel hamburger menu, verborgen op kleine schermen, open op grotere schermen */
-#menu {
-    display: none;
-    &:target {
-        display: block;
-    }
-    @media (min-width: 40em) {
-        display: block;
-        + a {
-            display: none;
-        }
-    }
-}
-/* Mijn interactie geeft de inhoudsopgave straks een gele fade.. */
-section ul.highlighted {
-    background: yellow;
-}
-```
-
-</details>
-
-In dit geval kan het handig zijn om `console.log()` te gebruiken, en het resultaat te inspecteren:
+In veel gevallen kan het handig zijn om `console.log()` te gebruiken, en het resultaat te inspecteren:
 
 ```js
 // Selecteer de inhoudsopgave
@@ -268,7 +190,7 @@ console.log(tableOfContents); // → “Ah, dit selecteert natuurlijk de <ul> ui
 tableOfContents.classList.add('highlighted');
 ```
 
-De code was dus niet fout, het deed alleen net iets anders dan je verwachtte. Leer jezelf het gebruik van `console.log()` in je code aan, en test regelmatig je werk.
+Veel code in JavaScript is niet per se fout, maar doet alleen iets anders dan je verwachtte. Leer jezelf het gebruik van `console.log()` in je code aan, en test regelmatig je werk.
 
 ### Opdrachten interactie coderen 
 
