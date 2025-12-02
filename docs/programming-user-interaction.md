@@ -200,14 +200,17 @@ Vergeet niet dat HTML, CSS en JS alledrie andere regels hebben, omdat het totaal
 In veel gevallen kan het handig zijn om `console.log()` te gebruiken, en het resultaat te inspecteren:
 
 ```js
-// Selecteer de inhoudsopgave
-let tableOfContents = document.querySelector('ul');
+// 1. Selecteer de button waarmee ik mijn menu open
+let button = document.querySelector('button')
 
-// Eens kijken wat er nou geselecteerd is
-console.log(tableOfContents); // → “Ah, dit selecteert natuurlijk de <ul> uit de nav, niet die uit de <section>!”
+// Even dubbelchecken of ik wel de juiste button geselecteerd heb..
+console.log(button)
 
-// Highlight de boel
-tableOfContents.classList.add('highlighted');
+// 2. Wacht tot iemand erop klikt
+button.addEventListener('click', function() {
+    // 3. Verander de class van mijn <nav>, zodat deze zichtbaar wordt
+    document.querySelector('nav').classList.add('nav-visible')
+})
 ```
 
 Veel code in JavaScript is niet per se fout, maar doet alleen iets anders dan je verwachtte. Leer jezelf het gebruik van `console.log()` in je code aan, en test regelmatig je werk.
