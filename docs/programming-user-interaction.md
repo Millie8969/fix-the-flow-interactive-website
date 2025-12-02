@@ -224,12 +224,12 @@ Schrijf het plan voor je interactie in _comments_ uit in je JavaScript bestand, 
 
 Vraag op het plan dat je in comments uitgeschreven hebt feedback van een docent of mentor. Werk je interactie uit aan de hand van het 3 stappenplan. Laat je comments gewoon staan bij je code, zodat je inzichtelijk maakt hoe je te werk bent gegaan, en eventuele (denk)foutjes makkelijk terug kunt vinden.
 
-Het kan goed zijn dat je vaak switcht tussen HTML, CSS en JS.
+Het kan goed zijn dat je vaak switcht tussen HTML, CSS en JS. En vergeet `console.log()` niet om je aannames te checken.
 
 Commit je werk als je klaar bent, en noem in je commit message het issue nummer van je user story, zodat deze gekoppeld zijn. Vrijdag krijg je hierop een code/design review.
 
 
-💪 Toe aan een uitdaging? Onderzoek de _methods_ `querySelector` en `querySelectorAll`, maak demo's in je learning Journal en schrijf in eigen woorden wat ze doen. Doe hetzelfde voor de _method_ `classList`.
+💪 Toe aan een uitdaging? Onderzoek de _methods_ `querySelector` en `querySelectorAll`, maak demo's in je Learning Journal en schrijf in eigen woorden wat ze doen. Doe hetzelfde voor het `classList` object en de verschillende methods.
 
 
 ### Bronnen
