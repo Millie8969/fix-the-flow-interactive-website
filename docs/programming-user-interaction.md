@@ -267,6 +267,10 @@ De code was dus niet fout, het deed alleen net iets anders dan je verwachtte. Le
 
 ### Opdrachten interactie coderen 
 
+Als je je interactie hebt ontworpen in een wireflow. Kan je een breakdown maken van de HTML elementen die je nodig hebt voor de interactie, de CSS styling, en het 3 stappenplan in JS. Dat ziet er bijvoorbeeld zo uit: 
+
+![Breakdown van een interactie in HTML, CSS, JS](breakdown-interactie.jpg)
+
 Schrijf het plan voor je interactie in _comments_ uit in je JavaScript bestand, dat je via een `<script>` tag linkt aan je code. Als je al JavaScript uit een eerdere (video) tutorial hebt—of ChadGPT al iets voor je hebt laten schrijven—is dit het moment om dat weg te gooien, opnieuw te beginnen, en nieuwe dingen te leren.
 
 Vraag op het plan dat je in comments uitgeschreven hebt feedback van een docent of mentor. Werk je interactie uit aan de hand van het 3 stappenplan. Laat je comments gewoon staan bij je code, zodat je inzichtelijk maakt hoe je te werk bent gegaan, en eventuele (denk)foutjes makkelijk terug kunt vinden.
@@ -274,6 +278,9 @@ Vraag op het plan dat je in comments uitgeschreven hebt feedback van een docent 
 Het kan goed zijn dat je vaak switcht tussen HTML, CSS en JS.
 
 Commit je werk als je klaar bent, en noem in je commit message het issue nummer van je user story, zodat deze gekoppeld zijn. Vrijdag krijg je hierop een code/design review.
+
+
+💪 Toe aan een uitdaging? Onderzoek de _methods_ `querySelector` en `querySelectorAll`, maak demo's in je learning Journal en schrijf in eigen woorden wat ze doen. Doe hetzelfde voor de _method_ `classList`.
 
 
 ### Bronnen
