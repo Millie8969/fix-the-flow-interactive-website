@@ -31,7 +31,7 @@ Deze sprint worden weer verschillende workshops aangeboden:
 - [User Interface Design](user-interface-design.md)
 - [Programming User Interaction](programming-user-interaction.md)
 - [Code/Design review Programming User Interaction](code-design-review-programming-user-interaction.md)
-- [Deeltaak UI events](https://github.com/fdnd-task/ui-events)
+- [User Interface Events](user-interface-events.md)
 - [Forms en states](form-states.md)
 - [Code/Design review User Testing](code-design-review-user-testing.md)
 - [Navigeren en labels](navigeren-en-labels.md)
