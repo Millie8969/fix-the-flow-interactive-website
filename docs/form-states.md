@@ -108,7 +108,7 @@ Formuliervelden zelf consistent vormgeven is een vak apart, en biedt soms uitdag
 
 ### Bronnen
 
-- [Form design; Best practice, research insights and examples](https://gerireid.com/forms.html)
+- [Form design; Best practice, research insights and examples](https://web.archive.org/web/20250219081734/https://gerireid.com/forms.html)
 - [Styling web forms @ MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms)
 - [UI pseudo-classes @ MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
 - [:user-invalid @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid)
