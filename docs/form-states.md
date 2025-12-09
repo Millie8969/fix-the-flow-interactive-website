@@ -58,7 +58,7 @@ Sla je HTML op en probeer het formulier te versturen in verschillende browsers.
 
 ## Het `invalid` event gebruiken
 
-Zoals je deze en vorige week hebt geleerd, biedt je browser een hoop _events_. Je kunt naar events luisteren met `addEventListener`. Zo hebben formuliervelden een `invalid` _event_, dat wordt afgevuurd zodra de browser een veld niet door de validatie laat komen. Je kunt vervolgens vragen aan de browser _waarom_ dat veld _invalid_ was, maar je kunt ook de feedback op dat moment aanpassen. Zet bijvoorbeeld het volgende script in je HTML. Meestal doen we dat via een apart bestand, maar voor kleine experimenten werkt dit ook:
+Zoals je deze en vorige week hebt geleerd, biedt je browser een hoop _events_. Je kunt naar events luisteren met `addEventListener`. Zo hebben formuliervelden een `invalid` _event_, dat wordt afgevuurd zodra de browser een veld niet door de validatie laat komen. Je kunt vervolgens vragen aan de browser _waarom_ dat veld _invalid_ was, maar je kunt ook de _feedback_ op dat moment aanpassen. Zet bijvoorbeeld het volgende script in je HTML. Meestal doen we dat via een apart bestand, maar voor kleine experimenten werkt dit ook:
 
 ```html
 <script type="module">
@@ -75,9 +75,11 @@ inputElement.addEventListener('invalid', function(ev) {
 </script>
 ```
 
-Sla dit op, en test het in je nieuwe favoriete browser. Met JavaScript kun je dus aangepaste feedback geven!
+Sla dit op, en test het in je nieuwe favoriete browser.
 
-Om het echt goed te krijgen, moet je nog wat extra werk doen, maar je weet nu in ieder geval hoe je het driestappenplan op een totaal ander onderwerp en _event_ kunt toepassen. Als je hier meer mee wilt doen in de opdracht voor de opdrachtgever, of in je eigen I Love Web website, klik dan vooral door naar de bronnen op MDN.
+Met JavaScript kun je dus aangepaste feedback geven!
+
+Om het écht goed te krijgen, moet je nog wat extra werk doen, maar je weet nu in ieder geval hoe je het driestappenplan op een totaal ander onderwerp en _event_ kunt toepassen. Als je hier meer mee wilt doen in de opdracht voor de opdrachtgever, of in je eigen I Love Web website, klik dan vooral door naar de bronnen op MDN.
 
 ### Bronnen
 
