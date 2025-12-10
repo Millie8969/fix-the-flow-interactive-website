@@ -66,7 +66,7 @@ Zoals je deze en vorige week hebt geleerd, biedt je browser een hoop _events_. J
 let inputElement = document.querySelector('input');
 
 // Stap 2: luister naar het invalid event, en wacht tot dat afgevuurd wordt..
-inputElement.addEventListener('invalid', function(ev) {
+inputElement.addEventListener('invalid', function() {
 
   // Stap 3: pas de tekst in de validatiemelding aan
   inputElement.setCustomValidity('Dit veld mag niet leeg zijn hoor..');
