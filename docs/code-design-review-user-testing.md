@@ -1,12 +1,12 @@
 # Fix the Flow - Interactive Website  
 
-## Code/Design User Testing
+## Code/Design review User Testing
 
-Voor deze Code/Design-review ga je de interactie(s) van jouw website testen met drie gebruikers. Tijdens deze review leer je hoe je een gebruikerstest opzet en ontdek je waarom dit zo waardevol (en leuk!) is.  
+Voor deze Code/Design review ga je de interactie(s) van jouw website testen met twee gebruikers. Tijdens deze review leer je hoe je een gebruikerstest opzet en ontdek je waarom dit zo waardevol (en leuk!) is.  
 
 ## User Testing
 
-Het ontwerpen van een goede gebruikerservaring (UX) gaat niet alleen over iets bouwen dat werkt, maar vooral over iets maken dat intuïtief en prettig te gebruiken is. Misschien denk je dat jouw micro-interactie perfect is – alles functioneert precies zoals jij het had bedacht – maar hoe ervaart een gebruiker jouw werk? Om dat te ontdekken, gebruik je user testing. Het doel is om te achterhalen hoe een echte gebruiker – iemand die jouw code niet kent – jouw werk ervaart.  
+Het ontwerpen van een goede gebruikerservaring (UX) gaat niet alleen over iets bouwen dat werkt, maar vooral over iets maken dat intuïtief en prettig te gebruiken is. Misschien denk je dat jouw micro-interactie perfect is. Alles functioneert precies zoals jij het had bedacht, maar hoe ervaart een gebruiker jouw werk? Om dat te ontdekken, voer je een user test uit. Het doel is om te achterhalen hoe een echte gebruiker (iemand die jouw code niet kent) jouw werk ervaart.  
 
 Vaak hoor je van vrienden of klasgenoten alleen wat er goed is. Dat is fijn, maar daar leer je niet veel van. De meest waardevolle inzichten komen juist voort uit opbouwende feedback. Het kan pijnlijk zijn om te zien dat een gebruiker vastloopt, maar dit biedt kansen om je werk te verbeteren. User testing is een methode om je prototype te testen met echte gebruikers. Het doel is niet om aan te tonen dat je ontwerp perfect is, maar om te begrijpen hoe gebruikers ermee omgaan:  
 
@@ -14,16 +14,16 @@ Vaak hoor je van vrienden of klasgenoten alleen wat er goed is. Dat is fijn, maa
 - Kunnen ze de interactie uitvoeren zonder uitleg?  
 - Lopen ze ergens vast of raken ze gefrustreerd?  
 
-Tijdens een gebruikerstest observeer je hoe iemand jouw website gebruikt, zonder in te grijpen. Het is belangrijk om niet in de valkuil te trappen waarin je uitlegt wat er moet gebeuren. Laat de gebruiker worstelen als dat nodig is – dát zijn de momenten waarop je leert!  
+Tijdens een gebruikerstest observeer je hoe iemand jouw website gebruikt, zonder in te grijpen. Het is belangrijk om niet in de valkuil te trappen waarin je uitlegt wat er moet gebeuren. Laat de gebruiker worstelen als dat nodig is. Dat zijn de momenten waarop je leert!  
 
 ## Aanpak
 
 Voordat je gaat testen maak je eerst een testplan. Zo zorg je ervoor dat je goed weet wat je wil testen en dat je niets vergeet tijdens een test. 
 
-Daarna ga je jouw interactie 3 keer testen met verschillende gebruikers. Na de test verwerk je de resultaten in issues, pas je je code aan en ga je meteen nog een keer testen om te zien of je interface is verbeterd...
+Daarna ga je jouw interactie 2 keer testen met twee verschillende gebruikers. Na de eerste test verwerk je de resultaten in issues, pas je je code aan en ga je meteen nog een keer testen om te zien of je interface is verbeterd...
 
 ### Een testplan opzetten
-Met een testplan zorg je ervoor dat je precies weet wat je wil testen. Een goed testplan zorgt er ook voor dat je een test meerdere keren op dezelfde manier kan uitvoeren zodat je de resultaten met elkaar kan vergelijken. (Belangrijk als je een kwalitatief- of kwantitatiefonderzoek doet.)
+Met een testplan zorg je ervoor dat je precies weet wat je wil testen. Een goed testplan zorgt er ook voor dat je een test meerdere keren op dezelfde manier kan uitvoeren zodat je de resultaten met elkaar kan vergelijken. 
 
 Een testplan bestaat uit een lijst taken en user stories die je wil testen. Voor elke taak en user story schrijf je een scenario. Het scenario moet je eerst proef-testen om te checken of het klopt en duidelijk is. Daarna kan je de echte test doen ...
 
@@ -38,7 +38,7 @@ Schrijf voor je gekozen user story een scenario. Dit scenario biedt context en d
 Test je scenario’s op een echt persoon om te bepalen of gebruikers voldoende context hebben om de taken uit te voeren. Pas onduidelijkheden aan en herhaal de proef-test totdat het scenario helder is. Voer de proef-test uit met een medestudent.  
 
 ### Testen, testen, testen  
-Nu je weet wat je wilt testen, is het tijd om de tests uit te voeren met minimaal drie gebruikers. Dit kunnen docenten, mentoren of medestudenten zijn. Een gebruikerstest levert de meest waardevolle inzichten op wanneer je test met iemand die weinig tot niets weet over jouw project en die je niet goed kent. Kies bij voorkeur een medestudent die niet aan hetzelfde project werkt en met wie je niet vaak samenwerkt.
+Nu je weet wat je wilt testen, is het tijd om de tests uit te voeren met twee gebruikers. Dit kunnen mentoren of een student **uit een andere squad met een andere opdrachtgever** zijn. Een gebruikerstest levert de meest waardevolle inzichten op wanneer je test met iemand die weinig tot niets weet over jouw project en die je niet goed kent. 
 
 **Voorbereiding is cruciaal**. Zorg ervoor dat je een notitieboekje en pen klaar hebt liggen om observaties vast te leggen. Tijdens de test beantwoord je geen vragen en grijp je niet in, maar noteer je nauwkeurig wat je opmerkt (zie de afbeeldingen hieronder). Denk daarnaast goed na over het device waarop de gebruiker de test uitvoert. Dit kan een laptop, tablet of smartphone zijn. Overweeg of je wilt dat de gebruiker zijn of haar eigen device gebruikt of dat je er een ter beschikking stelt. Het type device en de vertrouwdheid van de gebruiker ermee kunnen van invloed zijn op hoe zij jouw ontwerp ervaren.
 
