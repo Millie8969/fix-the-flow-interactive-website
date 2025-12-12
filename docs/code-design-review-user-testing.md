@@ -20,27 +20,29 @@ Tijdens een gebruikerstest observeer je hoe iemand jouw website gebruikt, zonder
 
 Voordat je gaat testen maak je eerst een testplan. Zo zorg je ervoor dat je goed weet wat je wil testen en dat je niets vergeet tijdens een test. 
 
-Daarna ga je jouw interactie 2 keer testen met twee verschillende gebruikers. Na de eerste test verwerk je de resultaten in issues, pas je je code aan en ga je meteen nog een keer testen om te zien of je interface is verbeterd...
+Daarna ga je jouw interactie 2 keer testen met twee verschillende gebruikers. Na de eerste test verwerk je de resultaten in je User Story issue, pas je je interactie aan en ga je meteen nog een keer testen om te zien of je UI is verbeterd...
 
 ### Een testplan opzetten
 Met een testplan zorg je ervoor dat je precies weet wat je wil testen. Een goed testplan zorgt er ook voor dat je een test meerdere keren op dezelfde manier kan uitvoeren zodat je de resultaten met elkaar kan vergelijken. 
 
 Een testplan bestaat uit een lijst taken en user stories die je wil testen. Voor elke taak en user story schrijf je een scenario. Het scenario moet je eerst proef-testen om te checken of het klopt en duidelijk is. Daarna kan je de echte test doen ...
 
-#### Van user story naar scenario's
+#### Van user story naar scenario
 Schrijf voor je gekozen user story een scenario. Dit scenario biedt context en details over de situatie waarin de gebruiker zich bevindt. Bijvoorbeeld:  
 
    > **User story:** Als toekomstige student wil ik mij aanmelden voor de opleiding FDND, zodat ik komend schooljaar van start kan bij deze Associate degree op de HvA.  
    >  
-   > **Scenario:** Je hebt een niveau 4-diploma en na veel onderzoek heb je besloten een Associate degree bij de HvA te gaan volgen. Je bent momenteel op de website van de opleiding Front-end Design and Development, de opleiding waar je volgend jaar wil gaan studeren. Schrijf je in voor toelating tot deze studie.  
+   > **Scenario:** Je hebt een niveau 4-diploma en na veel onderzoek heb je besloten een Associate degree bij de HvA te gaan volgen. Je bent momenteel op de website van de opleiding Front-end Design and Development, de opleiding waar je volgend jaar wil gaan studeren. Schrijf je in voor toelating tot deze studie.
 
-#### Proef-test de scenario’s  
-Test je scenario’s op een echt persoon om te bepalen of gebruikers voldoende context hebben om de taken uit te voeren. Pas onduidelijkheden aan en herhaal de proef-test totdat het scenario helder is. Voer de proef-test uit met een medestudent.  
+Voeg je scenario toe aan je user story issue.
+
+#### Proef-test het scenario
+Test je scenario op een echt persoon om te bepalen of gebruikers voldoende context hebben om de taken uit te voeren. Pas onduidelijkheden aan en herhaal de proef-test totdat het scenario helder is. Voer de proef-test uit met een medestudent.  
 
 ### Testen, testen, testen  
 Nu je weet wat je wilt testen, is het tijd om de tests uit te voeren met twee gebruikers. Dit kunnen mentoren of een student **uit een andere squad met een andere opdrachtgever** zijn. Een gebruikerstest levert de meest waardevolle inzichten op wanneer je test met iemand die weinig tot niets weet over jouw project en die je niet goed kent. 
 
-**Voorbereiding is cruciaal**. Zorg ervoor dat je een notitieboekje en pen klaar hebt liggen om observaties vast te leggen. Tijdens de test beantwoord je geen vragen en grijp je niet in, maar noteer je nauwkeurig wat je opmerkt (zie de afbeeldingen hieronder). Denk daarnaast goed na over het device waarop de gebruiker de test uitvoert. Dit kan een laptop, tablet of smartphone zijn. Overweeg of je wilt dat de gebruiker zijn of haar eigen device gebruikt of dat je er een ter beschikking stelt. Het type device en de vertrouwdheid van de gebruiker ermee kunnen van invloed zijn op hoe zij jouw ontwerp ervaren.
+**Voorbereiding is cruciaal**. Zorg ervoor dat je een notitieboekje en pen klaar hebt liggen om observaties vast te leggen. Tijdens de test **beantwoord je geen vragen** en **grijp je niet in**, maar noteer je nauwkeurig wat je opmerkt (zie de afbeeldingen hieronder). Denk daarnaast goed na over het device waarop de gebruiker de test uitvoert. Dit kan een laptop, tablet of smartphone zijn. Overweeg of je wilt dat de gebruiker zijn of haar eigen device gebruikt, of dat je er één ter beschikking stelt. Het type device en de vertrouwdheid van de gebruiker ermee kunnen van invloed zijn op hoe zij jouw ontwerp ervaren.
 
 Wanneer alles is voorbereid, kun je de test starten. Begin met het uitleggen van het scenario en vraag of het duidelijk is. Laat de gebruiker vervolgens jouw website zien en voer de test uit. Terwijl de gebruiker bezig is, observeer je en schrijf je al je bevindingen op. 
 
@@ -58,12 +60,12 @@ Let tijdens het testen op de volgende punten:
 
 
 ### Verwerken van testresultaten  
-Vat je testplan samen en verwerk de resultaten in de eerder aangemaakte issue genaamd *User Story*. Noteer wat goed ging en wat nog verbeterd kan worden. Vaak komen de meest waardevolle inzichten uit onverwachte verbeterpunten. Dit zijn momenten waarop je denkt: *Hoe heb ik dit kunnen missen?* 
+Vat je testplan samen en verwerk de resultaten (als checklist?) in het eerder aangemaakte issue met je *User Story*. Noteer wat goed ging en wat nog verbeterd kan worden. Vaak komen de meest waardevolle inzichten uit onverwachte verbeterpunten. Dit zijn momenten waarop je denkt: *Hoe heb ik dit kunnen missen?* 
 
-Verwerk je bevindingen in code en test meteen nog een keer. Is het gelukt om de interactie te verbeteren?
+Verwerk je bevindingen in code en test je scenario daarna nog een keer met iemand anders, op dezelfde manier als hierboven. Hou deze testbevindingen ook bij in je user story issue. Is het gelukt om de interactie te verbeteren? Of moet je nog een stap maken?
 
 ## Testen bij een volgend project  
-Het kan gebeuren dat de testresultaten je dwingen om de structuur van je website opnieuw te ontwerpen. Dit kan frustrerend zijn, maar door in een vroeg stadium te testen voorkom je dat je grote aanpassingen moet doen wanneer je al verder gevorderd bent. Hoe eerder je test, hoe beter! Zoals usability-expert Steve Krug zegt:  
+Het kan gebeuren dat de testresultaten je dwingen om de structuur van je website opnieuw te ontwerpen. Dit kan frustrerend zijn, maar door in een vroeg stadium te testen, voorkom je dat je grote aanpassingen moet doen wanneer je al verder gevorderd bent. Hoe eerder je test, hoe beter! Zoals usability-expert Steve Krug zegt:  
 
 > "Start earlier than you think makes sense."
 
