@@ -45,7 +45,18 @@ Op de website van Ziggo.nl zijn het logo, de titel van de pagina en het oranje m
 
 Voor het gebruik van iconen is het aan te raden bij het icon altijd een label te gebruiken. Zoals de input elementen in een formulier hebben alle interactieve elementen duidelijke labels nodig.
 
-Hieronder een voorbeeld van verschillende iconen die gebruikt worden voor een menu. Met een label zorg je ervoor dat de gebruiker ook weet wat je met zo'n knop kan doen:
+### Mental models
+
+De bezoeker van jouw website heeft een beeld in het hoofd van hoe een website werkt en wat knoppen en iconen doen. Dat heet een _Mental model_, Een idee van wat we denken te weten over een systeem en hoe het werkt.
+Gebruikers brengen het grootste deel van hun tijd door op andere sites. Dit betekent dat gebruikers willen dat jouw site op dezelfde manier werkt als alle andere sites die ze al kennen.
+
+> Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.
+> － Jacob's law
+
+
+Daarom is het belangrijk om te zorgen dat de werking van je website, de knoppen en iconen voldoen aan de verwachting van je gebruiker. 
+Hieronder een voorbeeld van verschillende iconen die gebruikt worden voor een menu. Welke doet wat? Wat zou een gebruiker denken dat een knop doet? 
+Met een label zorg je ervoor dat jouw gebruiker beter snapt wat je met zo'n knop kan doen:
 
 ![](hamburger-menu-types-examples.jpeg) 
 
@@ -63,6 +74,8 @@ Online zul je vaak zien dat menu knoppen of andere interactieve elementen geen l
 
 ### Bronnen
 
+- [Mental models](https://www.nngroup.com/articles/mental-models/)
+- [Jacob's Law](https://lawsofux.com/jakobs-law/)
 - [Icon Usablity](https://www.nngroup.com/articles/icon-usability/)
 - [Yes, Icons Need Text Labels](https://www.nngroup.com/videos/icon-text-labels)
 
