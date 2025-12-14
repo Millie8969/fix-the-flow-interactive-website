@@ -31,7 +31,7 @@ Eerst ga je leren wat straatnaambordjes en bewegwijzering in web design zijn, en
 
 Daarna ga je in groepjes de interactie die je aan het ontwerpen en bouwen bent bespreken.
 
-## Straatnaambordjes en bewegwijzering.
+## Straatnaambordjes en bewegwijzering
 
 Goede navigatie maakt gebruik van feedback en feedforward, dat zijn de straatnaambordjes en bewegwijzering van een website.
 _Feedback_ is dat een gebuiker weet _“waar”_ die is. _Feedforward_ laat zien waar de gebruiker _“naartoe”_ kan.
