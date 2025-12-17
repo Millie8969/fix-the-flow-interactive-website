@@ -1,0 +1,183 @@
+:root{
+    /* Colors */
+    --background-light: hsl(168, 38%, 67%);
+
+    /* Layout */
+    --text-center: center;
+    --grid-layout-desktop: 1fr 1fr 1fr;
+    --grid-layout-mobile: 1fr 1fr;
+
+    /* Sizing */
+    --card-height: 400px;
+    --card-max-width: 350px;
+    --page-width-full: 100%;
+
+    /* Typography */
+    --font-main: 'Georama';
+    --font-header: 'Gloock';
+    --font-footer: 'IBM';
+
+    /* Spacing */
+    --letter-spacing-standard: 0.05rem;
+    --padding-standard: 10px;
+    --padding-small: 5px;
+    --padding-disabled: 0px;
+    --offset-left: 8%;
+    --introduction-max-width: 73%;
+    --margin-disabled: 0;
+    --border-radius-standard: 5px;
+
+    /* Miscellaneous */
+    --page-overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src:url(assets/fonts/Georama-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Gloock';
+  src: url(assets/fonts/Gloock-Regular.woff);
+}
+
+@font-face {
+    font-family: 'IBM';
+    src: url(assets/fonts/IBMPlexSansCondensed-Regular.woff);
+}
+
+body {
+    margin: var(--margin-disabled);
+    padding: var(--padding-disabled);
+    letter-spacing: var(--letter-spacing-standard);
+    overflow-x: hidden;
+}
+
+h2.introduction-header {
+    color: var(--accent-dark);
+}
+
+h2.introduction {
+    color: var(--accent-dark);
+}
+
+.header-title {
+    display: flex;
+    color: var(--accent-light);
+    font-family: var(--font-header);
+    margin: var(--margin-disabled);
+    padding: var(--padding-standard);
+    
+    background-color: var(--background-inset);
+}
+
+.about {
+    color: var(--accent-dark);
+}
+
+.about:hover {
+    color: var(--background-inset);
+}
+
+.introduction-container {
+    margin: var(--margin-disabled);
+    font-family: var(--font-header);
+    background-color: var(--accent-light);
+    padding: var(--padding-standard);
+    padding-left: var(--offset-left);
+
+    & .introduction-header{
+        padding-left: var(--offset-left);
+        font-size: var(--headline);
+    }
+  
+    & .introduction {
+        margin: var(--margin-disabled);
+        font-family: var(--font-header);
+        font-size: var(--headline);
+        background-color: var(--accent-light);
+        padding: var(--padding-standard);
+        padding-left: var(--offset-left);
+        max-width: var(--introduction-max-width);
+    }
+}
+
+.main-title {
+    margin: var(--margin-disabled);
+    color: var(--text);
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: var(--headline);
+    background-color: var(--background-inset);
+}
+
+.idea-catalogue {
+    margin: auto;
+    padding: var(--padding-standard);
+    display: grid;
+    justify-items: stretch;
+
+    max-width: 90%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    grid-template-columns: var(--grid-layout-desktop);
+}
+
+@media (width < 860px) {
+    .idea-catalogue {
+        grid-template-columns: var(--grid-layout-mobile);
+    }
+}
+
+.idea-card {
+    margin: auto;
+    padding: var(--padding-standard);
+    background-color: var(--background-light);
+    max-width: var(--card-max-width);
+    height: var(--card-height);
+    border-radius: var(--border-radius-standard);
+
+    & h3{
+            color: black;
+    }  
+}
+
+footer {
+    margin: var(--margin-disabled);
+    background-color: var(--accent-dark);
+    padding: var(--padding-standard);
+    
+
+    & .footer-title {
+        display: inline;
+        margin: var(--margin-disabled);
+        font-family: var(--font-footer);
+        font-size: var(--font-size-large);
+        color: var(--text);
+        width: fit-content;
+    }
+
+    & .signup-link {
+        text-align: right;
+    }
+}
+
+.signup {
+    margin: var(--margin-disabled);
+    text-align: center;
+}
+
+.logo-auas-header {
+    align-self: center;
+    height: 50px;
+    filter: invert(0);
+}
+
+.signup-link {
+    float: right;
+}
+
+.signup-link:hover {
+    color: var(--accent-light);
+}

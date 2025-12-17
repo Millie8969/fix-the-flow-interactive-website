@@ -1,0 +1,11 @@
+.confirmSignup-hidden {
+    display: none;
+}
+
+.confirmSignup-visible {
+    display: block;
+}
+
+.signup-form-hidden {
+    display: none;
+}

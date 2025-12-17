@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design For Recognition | Newsletter sign-up page</title>
+    <link rel="stylesheet" href="https://chewsy.github.io/look-and-feel-styleguide/styleguide-design-for-recognition.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-title">
+            <h1 class="title">Design For Recognition</h1>
+            <img class="header-divider" height="75px" alt="" src="assets/img/icons8-vertical-line-100.png"/>
+            <img class="logo-auas-header" alt="" src="assets/img/hvalogo.png"/>
+        </div>
+    </header>
+
+    <main class="signup">
+        <p class="signup-text">Enter your email below. After clicking the "sign up" button, you will receive our weekly newsletter each monday.</p>
+        <form class="signup-form" id="form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required/>
+
+            <input type="submit" id="submit" value="Sign up"/>
+        </form>
+
+        <p class="confirmSignup-hidden" id="successMessage">✅ You have successfully signed up for our newsletter! 
+            A confirmation email will be sent to the provided email address shortly.</p>
+        <p class="confirmSignup-hidden returnText">Click <a href="index.html">here</a> to return to the homepage.</p>
+    </main>
+
+<script type="module" src="form.js"></script>
+</body>
+</html>
