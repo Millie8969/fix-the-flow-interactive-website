@@ -6,12 +6,7 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Design for Recognition | Een site waar een ethische ideeënbibliotheek voor beleidsmakers en ambtenaren wordt weergegeven. 
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Design for Recognition | Een site waar een ethische ideeënbibliotheek voor beleidsmakers en ambtenaren wordt weergegeven.
 
 ## Kenmerken
 Er wordt gebruik gemaakt van een gezamenlijke stylesheet in CSS, een duidelijke en simpele HTML-structuur waarbij gebruik gemaakt wordt van basale validatie en er wordt in JS gebruik gemaakt van een eventListener, querySelectors, classList.add en Event.preventDefault() om een interactie in de vorm van een formulier met goede feedback en feedforward te kunnen weergeven.
