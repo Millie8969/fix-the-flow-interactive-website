@@ -12,10 +12,10 @@ Design for Recognition | Een site waar een ethische ideeënbibliotheek voor bele
 Er wordt gebruik gemaakt van een gezamenlijke stylesheet in CSS, een duidelijke en simpele HTML-structuur waarbij gebruik gemaakt wordt van basale validatie en er wordt in JS gebruik gemaakt van een eventListener, querySelectors, classList.add en Event.preventDefault() om een interactie in de vorm van een formulier met goede feedback en feedforward te kunnen weergeven.
 
 ## Bronnen
-https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
-https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
-https://blog.logrocket.com/truncate-text-css/
+* https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+* https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+* https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+* https://blog.logrocket.com/truncate-text-css/
 
 ## Licentie
 
