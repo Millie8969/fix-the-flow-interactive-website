@@ -1,5 +1,6 @@
 :root{
     /* Colors */
+    --white: hsl(0, 100%, 100%);
     --background-light: hsl(168, 38%, 67%);
 
     /* Layout */
@@ -9,7 +10,7 @@
 
     /* Sizing */
     --card-height: 400px;
-    --card-max-width: 350px;
+    --card-max-width: 450px;
     --page-width-full: 100%;
 
     /* Typography */
@@ -63,12 +64,13 @@ h2.introduction {
 
 .header-title {
     display: flex;
-    color: var(--accent-light);
-    font-family: var(--font-header);
     margin: var(--margin-disabled);
     padding: var(--padding-standard);
-    
     background-color: var(--background-inset);
+
+    & .title {
+        color: var(--text);
+    }
 }
 
 .about {
@@ -81,7 +83,6 @@ h2.introduction {
 
 .introduction-container {
     margin: var(--margin-disabled);
-    font-family: var(--font-header);
     background-color: var(--accent-light);
     padding: var(--padding-standard);
     padding-left: var(--offset-left);
@@ -93,7 +94,6 @@ h2.introduction {
   
     & .introduction {
         margin: var(--margin-disabled);
-        font-family: var(--font-header);
         font-size: var(--headline);
         background-color: var(--accent-light);
         padding: var(--padding-standard);
@@ -131,16 +131,47 @@ h2.introduction {
 }
 
 .idea-card {
-    margin: auto;
     padding: var(--padding-standard);
     background-color: var(--background-light);
     max-width: var(--card-max-width);
     height: var(--card-height);
-    border-radius: var(--border-radius-standard);
 
     & h3{
-            color: black;
-    }  
+        color: var(--accent-dark);
+    }
+
+    & h4{
+        color: var(--accent-dark);
+        display: inline-block;
+    }
+}
+
+.card-img-container {
+    display: flex;
+    max-height: 30%;
+}
+
+.card-img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    color: var(--accent-dark);
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: none;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.card-button {
+    float: right;
+}
+
+.card-button:hover {
+    background-color: var(--background-inset);
+    color: var(--accent-light);
 }
 
 footer {
