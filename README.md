@@ -6,16 +6,16 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Design for Recognition | Een site waar een ethische ideeënbibliotheek voor beleidsmakers en ambtenaren wordt weergegeven.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Er wordt gebruik gemaakt van een gezamenlijke stylesheet in CSS, een duidelijke en simpele HTML-structuur waarbij gebruik gemaakt wordt van basale validatie en er wordt in JS gebruik gemaakt van een eventListener, querySelectors, classList.add en Event.preventDefault() om een interactie in de vorm van een formulier met goede feedback en feedforward te kunnen weergeven.
 
 ## Bronnen
+* https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+* https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+* https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+* https://blog.logrocket.com/truncate-text-css/
 
 ## Licentie
 
