@@ -15,6 +15,7 @@ Er wordt gebruik gemaakt van een gezamenlijke stylesheet in CSS, een duidelijke 
 https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+https://blog.logrocket.com/truncate-text-css/
 
 ## Licentie
 
